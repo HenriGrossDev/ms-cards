@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ms-cards.iml" filepath="$PROJECT_DIR$/.idea/ms-cards.iml" />
       <module fileurl="file://$PROJECT_DIR$/msclients/ms-clients.iml" filepath="$PROJECT_DIR$/msclients/ms-clients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloudgateway/mscloudgateway.iml" filepath="$PROJECT_DIR$/mscloudgateway/mscloudgateway.iml" />
     </modules>
   </component>
 </project>
