@@ -1,6 +1,6 @@
 package com.henriquegross.msclients.application;
 
-import com.henriquegross.msclients.domain.Client;
+import com.henriquegross.msclients.domain.Cliente;
 import com.henriquegross.msclients.infra.repository.ClienteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -15,11 +15,11 @@ public class ClienteService {
     private final ClienteRepository repository;
 
     @Transactional
-    public Client save(Client client){
+    public Cliente save(Cliente client){
         return repository.save(client);
     }
 
-    public Optional<Client> getByCpf(String cpf){
+    public Optional<Cliente> getByCpf(String cpf){
         return repository.findByCpf(cpf);
     }
 

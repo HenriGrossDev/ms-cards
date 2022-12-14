@@ -1,7 +1,6 @@
 package com.henriquegross.msclients.domain;
 
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -10,7 +9,7 @@ import javax.persistence.*;
 @Entity
 @Data
 @NoArgsConstructor
-public class Client {
+public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,7 +21,7 @@ public class Client {
     @Column
     private Integer idade;
 
-    public Client(String cpf, String nome, Integer idade) {
+    public Cliente(String cpf, String nome, Integer idade) {
         this.cpf = cpf;
         this.nome = nome;
         this.idade = idade;
