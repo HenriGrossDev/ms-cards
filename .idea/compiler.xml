@@ -10,10 +10,12 @@
         <module name="eurekaserver" />
         <module name="ms-clients" />
         <module name="mscloudgateway" />
+        <module name="ms-cartoes" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekaserver" target="11" />
+      <module name="ms-cartoes" target="17" />
       <module name="ms-clients" target="11" />
       <module name="msclients" target="17" />
       <module name="mscloudgateway" target="11" />
