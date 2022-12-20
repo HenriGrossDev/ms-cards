@@ -4,8 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ms-cards.iml" filepath="$PROJECT_DIR$/.idea/ms-cards.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ms-cartoes/ms-cartoes.iml" filepath="$PROJECT_DIR$/ms-cartoes/ms-cartoes.iml" />
       <module fileurl="file://$PROJECT_DIR$/msclients/ms-clients.iml" filepath="$PROJECT_DIR$/msclients/ms-clients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msavaliadorcredito/msavaliadorcredito.iml" filepath="$PROJECT_DIR$/msavaliadorcredito/msavaliadorcredito.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-cartoes/mscartoes.iml" filepath="$PROJECT_DIR$/ms-cartoes/mscartoes.iml" />
       <module fileurl="file://$PROJECT_DIR$/mscloudgateway/mscloudgateway.iml" filepath="$PROJECT_DIR$/mscloudgateway/mscloudgateway.iml" />
     </modules>
   </component>
