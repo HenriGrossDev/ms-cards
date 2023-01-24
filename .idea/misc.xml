@@ -9,7 +9,8 @@
         <option value="$PROJECT_DIR$/mscloudgateway/pom.xml" />
         <option value="$PROJECT_DIR$/ms-cartoes/pom.xml" />
         <option value="$PROJECT_DIR$/mscartoes/pom.xml" />
-        <option value="$PROJECT_DIR$/msavaliadorcredito/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-avaliador/pom.xml" />
+        <option value="$PROJECT_DIR$/msavaliador/pom.xml" />
       </list>
     </option>
   </component>

@@ -11,12 +11,16 @@
         <module name="mscartoes" />
         <module name="ms-clients" />
         <module name="mscloudgateway" />
-        <module name="msavaliadorcredito" />
+        <module name="msavaliador" />
+        <module name="ms-cartoes" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekaserver" target="11" />
+      <module name="ms-avaliador" target="17" />
+      <module name="ms-cartoes" target="11" />
       <module name="ms-clients" target="11" />
+      <module name="msavaliador" target="11" />
       <module name="msavaliadorcredito" target="11" />
       <module name="mscartoes" target="11" />
       <module name="msclients" target="17" />
@@ -26,7 +30,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eurekaserver" options="-parameters" />
+      <module name="ms-avaliador" options="-parameters" />
+      <module name="ms-cartoes" options="-parameters" />
       <module name="ms-clients" options="-parameters" />
+      <module name="msavaliador" options="-parameters" />
       <module name="msavaliadorcredito" options="-parameters" />
       <module name="mscartoes" options="-parameters" />
       <module name="msclients" options="-parameters" />
