@@ -31,7 +31,7 @@ public class EmissaoCartaoSubscriber {
             clienteCartao.setLimite(dados.getLimiteLiberado());
 
             clienteCartaoRepository.save(clienteCartao);
-        } catch (JsonProcessingException e){
+        } catch (Exception e){
             e.printStackTrace();
         }
         }
